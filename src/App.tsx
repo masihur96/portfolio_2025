@@ -57,8 +57,8 @@ function App() {
                   
                   // Trigger the download by creating a temporary <a> tag and simulating a click
                   const link = document.createElement('a');
-                  link.href = "/assets/resume.pdf"; // Path to your file
-                  link.download = "Resume"; // Name of the downloaded file
+                  link.href = "/Masihur_Rohman.pdf"; // Path to your file
+                  link.download = "Masihur"; // Name of the downloaded file
                   document.body.appendChild(link); // Append the link to the body
                   link.click(); // Programmatically click the link to start the download
                   document.body.removeChild(link); // Clean up by removing the link element
@@ -136,8 +136,8 @@ function App() {
                     
                     // Trigger the download by creating a temporary <a> tag and simulating a click
                     const link = document.createElement('a');
-                    link.href = "/assets/resume.pdf"; // Path to your file
-                    link.download = "Resume"; // Name of the downloaded file
+                    link.href = "/Masihur_Rohman.pdf"; // Path to your file
+                    link.download = "Masihur"; // Name of the downloaded file
                     document.body.appendChild(link); // Append the link to the body
                     link.click(); // Programmatically click the link to start the download
                     document.body.removeChild(link); // Clean up by removing the link element
@@ -187,8 +187,8 @@ function App() {
                 <ChevronDown className="w-4 h-4 ml-2 transition-transform group-hover:translate-y-1" />
               </a>
               <a
-                href="/assets/resume.pdf" // Path to your resume file in the public directory
-                download="Resume" // The name of the downloaded file
+                href="/Masihur_Rohman.pdf" // Path to your resume file in the public directory
+                download="Masihur" // The name of the downloaded file
                 className="group bg-gray-800 text-white px-8 py-4 rounded-lg hover:bg-gray-900 transition-all duration-300 transform hover:scale-105 flex items-center justify-center"
                 onClick={(e) => {
                   e.preventDefault(); // Prevents the default action (navigation)
@@ -198,8 +198,8 @@ function App() {
                   
                   // Trigger the download by creating a temporary <a> tag and simulating a click
                   const link = document.createElement('a');
-                  link.href = "/assets/resume.pdf"; // Path to your file
-                  link.download = "Resume"; // Name of the downloaded file
+                  link.href = "/Masihur_Rohman.pdf"; // Path to your file
+                  link.download = "Masihur"; // Name of the downloaded file
                   document.body.appendChild(link); // Append the link to the body
                   link.click(); // Programmatically click the link to start the download
                   document.body.removeChild(link); // Clean up by removing the link element
@@ -411,8 +411,8 @@ function App() {
                   
                   // Trigger the download by creating a temporary <a> tag and simulating a click
                   const link = document.createElement('a');
-                  link.href = "/assets/resume.pdf"; // Path to your file
-                  link.download = "Resume"; // Name of the downloaded file
+                  link.href = "/Masihur_Rohman.pdf"; // Path to your file
+                  link.download = "Masihur"; // Name of the downloaded file
                   document.body.appendChild(link); // Append the link to the body
                   link.click(); // Programmatically click the link to start the download
                   document.body.removeChild(link); // Clean up by removing the link element

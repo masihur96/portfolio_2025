@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail, Phone, Store, ExternalLink, Code2, ChevronDown, FileText, Briefcase, Calendar, Award, Download, Menu, X, Apple, Smartphone } from 'lucide-react';
 
-import myImage from './assets/images/my_image.jpeg';
+import myImage from '/assets/my_image.jpeg';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -57,7 +57,7 @@ function App() {
                   
                   // Trigger the download by creating a temporary <a> tag and simulating a click
                   const link = document.createElement('a');
-                  link.href = "/src/assets/resume.pdf"; // Path to your file
+                  link.href = "/assets/resume.pdf"; // Path to your file
                   link.download = "Resume"; // Name of the downloaded file
                   document.body.appendChild(link); // Append the link to the body
                   link.click(); // Programmatically click the link to start the download
@@ -136,7 +136,7 @@ function App() {
                     
                     // Trigger the download by creating a temporary <a> tag and simulating a click
                     const link = document.createElement('a');
-                    link.href = "/src/assets/resume.pdf"; // Path to your file
+                    link.href = "/assets/resume.pdf"; // Path to your file
                     link.download = "Resume"; // Name of the downloaded file
                     document.body.appendChild(link); // Append the link to the body
                     link.click(); // Programmatically click the link to start the download
@@ -187,7 +187,7 @@ function App() {
                 <ChevronDown className="w-4 h-4 ml-2 transition-transform group-hover:translate-y-1" />
               </a>
               <a
-                href="./assets/resume.pdf" // Path to your resume file in the public directory
+                href="/assets/resume.pdf" // Path to your resume file in the public directory
                 download="Resume" // The name of the downloaded file
                 className="group bg-gray-800 text-white px-8 py-4 rounded-lg hover:bg-gray-900 transition-all duration-300 transform hover:scale-105 flex items-center justify-center"
                 onClick={(e) => {
@@ -198,7 +198,7 @@ function App() {
                   
                   // Trigger the download by creating a temporary <a> tag and simulating a click
                   const link = document.createElement('a');
-                  link.href = "/src/assets/resume.pdf"; // Path to your file
+                  link.href = "/assets/resume.pdf"; // Path to your file
                   link.download = "Resume"; // Name of the downloaded file
                   document.body.appendChild(link); // Append the link to the body
                   link.click(); // Programmatically click the link to start the download
@@ -228,7 +228,7 @@ function App() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
                 <img 
-                  src='src/assets/images/about_me.jpeg'
+                  src='/assets/about_me.jpeg'
                   alt="Professional Flutter Developer" 
                   className="rounded-2xl shadow-xl w-full h-auto object-cover"
                 />
@@ -411,7 +411,7 @@ function App() {
                   
                   // Trigger the download by creating a temporary <a> tag and simulating a click
                   const link = document.createElement('a');
-                  link.href = "/src/assets/resume.pdf"; // Path to your file
+                  link.href = "/assets/resume.pdf"; // Path to your file
                   link.download = "Resume"; // Name of the downloaded file
                   document.body.appendChild(link); // Append the link to the body
                   link.click(); // Programmatically click the link to start the download
@@ -442,7 +442,7 @@ function App() {
         {
           title: "Attendance Keeper- HR Solution",
           description: "Attendance Keeper streamlines HR management with Flutter, Firebase, FastAPI, TensorFlow, and VGGFace technologies for automated attendance records, employee monitoring, and real-time data collection. This mobile app includes advanced facial recognition and spoof detection to monitor employee behaviors and performance, making it an essential tool for businesses seeking efficient workforce management.",
-          image: "src/assets/images/attendance_keeper.png?w=800&auto=format&fit=crop&q=60",
+          image: "/assets/attendance_keeper.png?w=800&auto=format&fit=crop&q=60",
           tags: ["Flutter", "Firebase", "Provider"],
           appStoreUrl: "https://apps.apple.com/us/app/attendance-keeper-hr-solution/id1605725955",
           playStoreUrl: "https://play.google.com/store/apps/details?id=net.attendancekeeper.app&pcampaignid=web_share"
@@ -450,7 +450,7 @@ function App() {
         {
           title: "Westace Clothing",
           description: "Westace Clothing is a stylish e-commerce app offering a wide range of fashion products for all your wardrobe needs.",
-          image: "src/assets/images/westace_clothin.png?w=800&auto=format&fit=crop&q=60",
+          image: "/assets/westace_clothin.png?w=800&auto=format&fit=crop&q=60",
           tags: ["Flutter", "REST API", "Stripe"],
           appStoreUrl: "https://apps.apple.com/us/app/westace-clothing/id1615741648",
           playStoreUrl: "https://play.google.com/store/apps/details?id=com.westaceclothing.westaceclothing&pcampaignid=web_share"
@@ -458,7 +458,7 @@ function App() {
         {
           title: "Inventory Keeper",
           description: "Inventory Keeper is a store management app that helps track stock, manage inventory, and streamline operations for businesses.",
-          image: "src/assets/images/inventory_keeper.png?w=800&auto=format&fit=crop&q=60",
+          image: "/assets/inventory_keeper.png?w=800&auto=format&fit=crop&q=60",
           tags: ["Flutter", "WebSocket", "Provider"],
           appStoreUrl: "https://apps.apple.com/us/app/inventory-keeper-application/id1573838848",
           playStoreUrl: "https://play.google.com/store/apps/details?id=net.inventorykeeper.android&pcampaignid=web_share"
@@ -466,7 +466,7 @@ function App() {
         {
           title: "MYE Companion App",
           description: "MYE Companion App is a comprehensive tool to efficiently manage your e-commerce store, track orders, and monitor inventory.",
-          image: "src/assets/images/mye.png?w=800&auto=format&fit=crop&q=60",
+          image: "/assets/mye.png?w=800&auto=format&fit=crop&q=60",
           tags: ["Flutter", "WebSocket", "Provider"],
           appStoreUrl: "https://apps.apple.com/us/app/mye-companion-app/id1636452773",
           playStoreUrl: "https://play.google.com/store/apps/details?id=com.evidentbd.mye_companion_app&pcampaignid=web_share"
